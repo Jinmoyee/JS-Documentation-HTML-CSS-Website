@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body .all_content {
+    display: flex;
+}
+
+body .all_content .header {
+    border: 1px solid gray;
+    min-height: 100%;
+    width: 9.5rem;
+}
+
+body .all_content .header h1 {
+    padding: 0.5rem;
+    border-bottom: 1px solid gray;
+    font-size: 0.8rem;
+}
+
+body .all_content .header ul a {
+    text-decoration: none;
+    color: black;
+}
+
+body .all_content .header ul a li {
+    border-bottom: 1px solid gray;
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    transition: 500ms ease-in-out;
+}
+
+body .all_content .header ul a li:hover {
+    background-color: rgb(176, 180, 184);
+    transition: 500ms ease-in-out;
+}
+
+body .main section {
+    padding: 0.4rem;
+}
+
+body .main section h2 {
+    font-size: 0.9rem;
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.3rem;
+}
+
+body .main section p,ul li,div {
+    font-size: 0.7rem;
+    padding-top: 0.3rem;
+}
+
+body .main section div {
+    padding-top: 1rem;
+}
+
+body .main section ul {
+    padding-top: 0.3rem;
+}
+
+body .main section ul li {
+    margin-left: 1rem;
+}
+
+body section .formula {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: rgb(176, 180, 184);
+    padding-left: 0.5rem;
+    padding-bottom: 1.3rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+body section .formula div {
+    padding-right: 12.7rem;
+}
+
+@media(min-width:700px) {
+    body .all_content .header {
+        width: 11rem;
+    }
+    
+    body .all_content .header h1 {
+        font-size: 1.3rem;
+    }
+
+    body .all_content .header ul a li {
+        font-size: 1.1rem;
+    }
+
+    body .main section {
+    padding-left: 0.9rem;
+    }
+
+    body .main section h2 {
+        font-size: 1.2rem;
+    }
+    
+    body .main section p,ul li,div {
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+    }
+
+    body .main section ul {
+    padding-top: 0.5rem;
+    }
+
+    body .main section ul li {
+    margin-left: 2rem;
+    }
+
+    body section .formula div {
+    padding-right: 16.3rem;
+    }
+
+}
+
+@media(min-width:62em) {
+    body .all_content .header {
+        width: 15rem;
+    }
+    
+    body .all_content .header h1 {
+        font-size: 1.8rem;
+    }
+
+    body .all_content .header ul a li {
+        font-size: 1.2rem;
+    }
+
+    body .main section {
+    padding-left: 1.6rem;
+    padding-top: 0.7rem;
+    }
+
+    body .main section h2 {
+        font-size: 1.5rem;
+    }
+    
+    body .main section p,ul li,div {
+    font-size: 1.1rem;
+    padding-top: 0.7rem;
+    }
+
+    body .main section ul {
+    padding-top: 0.7rem;
+    }
+
+    body .main section ul li {
+    margin-left: 3rem;
+    }
+
+    body section .formula div {
+    padding-right: 19.8rem;
+    }
+}
+
+@media(min-width:87em) {
+    body .all_content .header {
+        width: 19rem;
+    }
+    
+    body .all_content .header h1 {
+        font-size: 2.3rem;
+    }
+
+    body .all_content .header ul a li {
+        font-size: 1.2rem;
+    }
+
+    body .main section {
+    padding-left: 1.6rem;
+    padding-top: 0.7rem;
+    }
+
+    body .main section h2 {
+        font-size: 1.5rem;
+    }
+    
+    body .main section p,ul li,div {
+    font-size: 1.1rem;
+    padding-top: 0.7rem;
+    }
+
+    body .main section ul {
+    padding-top: 0.7rem;
+    }
+
+    body .main section ul li {
+    margin-left: 3rem;
+    }
+
+    body section .formula div {
+    padding-right: 19.8rem;
+    }
+}
+
